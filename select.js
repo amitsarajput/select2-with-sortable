@@ -12,7 +12,7 @@ var icon_options= {"1":"ALL WEATHER","2":"SPORT TOURING","3":"CAR\/CUV\/SUV","4"
 		//Select2 init
 		var selectEl = icons_selector.select2({
 			placeholder: "Select Icons",
-			closeOnSelect:false
+			closeOnSelect:false //Set TRUE to close on select
 		});
     	
     	//Sortable init
@@ -45,7 +45,6 @@ var icon_options= {"1":"ALL WEATHER","2":"SPORT TOURING","3":"CAR\/CUV\/SUV","4"
 					selectEl.append(original)
 				});
 				selectEl.trigger('change');
-
 			}
 		});
 
